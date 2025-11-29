@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Amitangshu1013
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Amitangshu1013/Encoding-Hierarchical-Information-in-Neural-Networks-helps-in-Subpopulation-Shift
+  - Amitangshu1013/RAVS
