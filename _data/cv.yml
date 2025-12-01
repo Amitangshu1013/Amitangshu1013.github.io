@@ -6,22 +6,22 @@
     - name: Specialization
       value: Ph.D. candidate specializing in active vision architectures for robust perception.
     - name: Contact
-      value: <a href="mailto:[INSERT EMAIL]">Email</a>, <a href="[INSERT WEBSITE]">Website</a>
+      value: <a href="mailto:mukher44@purdue.edu">Email</a>, <a href="https://amitangshu1013.github.io/">Website</a>
 
 - title: Education
   type: time_table
   contents:
     - title: Doctor of Philosophy (PhD) in Computer Engineering
       institution: Purdue University
-      year: Summer 2020 - Present (Expected Spring 2026)
+      year: 2020-2026
       description:
-        - Advisor: Dr. Kaushik Roy
+        - "Advisor: Dr. Kaushik Roy"
         - "Research: Cognitive Inspired AI, Scene Understanding, Robust Deep Learning, Multimodal Models"
     - title: MS in Computer Engineering
       institution: Iowa State University
-      year: Fall 2017 - Spring 2020
+      year: Fall 2019
       description:
-        - Advisors: Dr. Chinmay Hegde & Dr. Soumik Sarkar
+        - "Advisors: Dr. Chinmay Hegde & Dr. Soumik Sarkar"
         - "Research Area: Domain Adaptation, Autonomous Driving, Generative Adversarial Networks, Robust Deep Learning"
 
 - title: Experience
@@ -29,7 +29,7 @@
   contents:
     - title: Graduate Research Assistant
       institution: Purdue University | NRL | C-BRIC
-      year: Summer 2020 - Present
+      year: Current
       description:
         - title: Foveated Object-Centric Learning (FocL)
           contents:
@@ -44,6 +44,17 @@
         - title: Adaptive Foveated Vision & FastVLM Integration
           contents:
             - Developing a token-efficient adaptive-resolution framework using factorized positional embeddings and Patch-n-Pack to process native-resolution object crops.
+    
+    - title: Graduate Research Assistant
+      institution: Iowa State University | SCS Lab
+      year: Spring 2020
+      description:
+        - title: Attribute GAN-Based Semantic Adversarial Attacks
+          contents:
+            - Developed a conditional GAN-based optimization scheme to generate semantic adversarial examples, driving target classifier accuracy down to 1% on CelebA.
+        - title: GAN-Based Domain Adaptation for Autonomous Driving
+          contents:
+            - Built an attribute-controlled GAN to synthesize adverse driving conditions (e.g. rain, night), improving detector mAP by 3-5% on BDD and KITTI.
 
     - title: Video Research Intern
       institution: Qualcomm | San Diego, USA
@@ -54,17 +65,7 @@
             - Developed a multi-decoder Transformer architecture for autonomous-driving videos in the Multimedia R&D team.
             - Designed a self-supervised training framework leveraging epipolar geometry and view synthesis to learn flow, depth, and pose jointly in a resource-efficient manner for edge deployment.
 
-    - title: Graduate Research Assistant
-      institution: Iowa State University | SCS Lab
-      year: Fall 2017 - Spring 2020
-      description:
-        - title: Attribute GAN-Based Semantic Adversarial Attacks
-          contents:
-            - Developed a conditional GAN-based optimization scheme to generate semantic adversarial examples, driving target classifier accuracy down to 1% on CelebA.
-        - title: GAN-Based Domain Adaptation for Autonomous Driving
-          contents:
-            - Built an attribute-controlled GAN to synthesize adverse driving conditions (e.g. rain, night), improving detector mAP by 3-5% on BDD and KITTI.
-
+   
 - title: Service & Leadership
   type: time_table
   contents:
@@ -82,7 +83,7 @@
         - Machine Learning for Autonomous Driving Workshop
     - title: Career Chair
       institution: ECEGSA at Purdue University
-      year: Summer 2022 - 2023
+      year: 2022 - 2023
 
 - title: Academic Interests
   type: nested_list
