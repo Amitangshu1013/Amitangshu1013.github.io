@@ -3,175 +3,108 @@
   contents:
     - name: Full Name
       value: Amitangshu Mukherjee
-    - name: Position
-      value: Ph.D. Candidate in Electrical and Computer Engineering
-    - name: Institution
-      value: Purdue University, West Lafayette, IN, USA
-    - name: Research Overview
-      value: >
-        Active vision architectures and foveated learning frameworks for robust perception. Develops
-        token-efficient, object-centric vision systems that mitigate domain shift and long-tail fragility
-        while reducing sample complexity, with extensions to vision–language and multimodal models.
+    - name: Specialization
+      value: Ph.D. candidate specializing in active vision architectures for robust perception.
+    - name: Contact
+      value: <a href="mailto:[INSERT EMAIL]">Email</a>, <a href="[INSERT WEBSITE]">Website</a>
 
 - title: Education
   type: time_table
   contents:
     - title: Doctor of Philosophy (PhD) in Computer Engineering
-      institution: Purdue University, West Lafayette, IN, USA
-      year: Summer 2020 – Present (expected Spring 2026)
+      institution: Purdue University
+      year: Summer 2020 - Present (Expected Spring 2026)
       description:
-        - Advisor: Prof. Kaushik Roy.
-        - Research areas: cognitive-inspired AI, scene understanding, robust deep learning, multimodal models.
-    - title: M.S. in Computer Engineering
-      institution: Iowa State University, Ames, IA, USA
-      year: Fall 2017 – Spring 2020
+        - Advisor: Dr. Kaushik Roy
+        - "Research: Cognitive Inspired AI, Scene Understanding, Robust Deep Learning, Multimodal Models"
+    - title: MS in Computer Engineering
+      institution: Iowa State University
+      year: Fall 2017 - Spring 2020
       description:
-        - Advisors: Prof. Chinmay Hegde and Prof. Soumik Sarkar.
-        - Research areas: domain adaptation, autonomous driving, generative adversarial networks, robust deep learning.
-    - title: B.Tech. in Applied Electronics & Instrumentation Engineering
-      institution: Heritage Institute of Technology (WBUT), Kolkata, India
-      year:
-      description:
-        - Focus: electronics, instrumentation, and foundational signal processing and control.
+        - Advisors: Dr. Chinmay Hegde & Dr. Soumik Sarkar
+        - "Research Area: Domain Adaptation, Autonomous Driving, Generative Adversarial Networks, Robust Deep Learning"
 
 - title: Experience
   type: time_table
   contents:
     - title: Graduate Research Assistant
-      institution: Nano(Neuro) Electronics Lab (NRL) & C-BRIC, Purdue University
-      year: 2020 – Present
+      institution: Purdue University | NRL | C-BRIC
+      year: Summer 2020 - Present
       description:
-        - >
-          Foveated Object-Centric Learning (FocL): Designed a multi-viewpoint foveated-vision training
-          framework that improves adversarial robustness by ~61% while using 56% less labeled data and
-          substantially reducing cumulative sample loss (memorization proxy).
-        - >
-          Developed SAM-based dorsal–ventral pipelines, boosting ImageNet-V2 Top-1 accuracy by ~7 percentage
-          points and improving COCO zero-shot mAP by 3–4% through object-centric cropping.
-        - >
-          Built an active-vision system with ViT ventral backbones that achieves 1.75× higher robustness to
-          transformer-based black-box transfer attacks on ImageNet and 1.5–2× higher accuracy on ImageNet-A.
-        - >
-          Proposed hierarchical models for subpopulation shift that reduce severe errors by 7.5–8 percentage
-          points and improve accuracy by 1.5–2 percentage points on long-tail subsets.
-        - >
-          Developing token-efficient adaptive-resolution vision architectures (factorized positional embeddings,
-          Patch-n-Pack) and integrating them into FastVLM-style pipelines for multimodal object-centric grounding.
-    - title: Graduate Research Assistant
-      institution: SCS Lab, Iowa State University
-      year: 2017 – 2020
-      description:
-        - >
-          Designed conditional / attribute-controlled GANs for semantic adversarial attacks on facial attribute
-          classifiers, driving target accuracy down to ~1% and outperforming iterative baselines.
-        - >
-          Built GAN-based domain adaptation frameworks for autonomous driving, synthesizing adverse weather
-          and illumination (rain, night) to improve detector mAP by 3–5% on BDD100K and KITTI.
+        - title: Foveated Object-Centric Learning (FocL)
+          contents:
+            - Designed a multi-viewpoint foveated-vision training framework improving adversarial robustness by 61% with 56% less labeled data.
+            - Integrated SAM-based dorsal-ventral pipeline, boosting ImageNet-V2 Top-1 by +7 pp and COCO zero-shot mAP by 3-4%.
+        - title: Multimodal Privacy
+          contents:
+            - Extending framework to Self-Supervised Learning (SSL) for ViT pretraining and VLM grounding, targeting reduction of memorization in foundation models.
+        - title: Active Vision for Enhanced Robustness
+          contents:
+            - Developed a dorsal-ventral active-vision system with ViT ventral backbones, improving robustness to state-of-the-art transformer-based black-box transfer attacks.
+        - title: Adaptive Foveated Vision & FastVLM Integration
+          contents:
+            - Developing a token-efficient adaptive-resolution framework using factorized positional embeddings and Patch-n-Pack to process native-resolution object crops.
+
     - title: Video Research Intern
-      institution: Qualcomm, Multimedia R&D, San Diego, USA
+      institution: Qualcomm | San Diego, USA
       year: Summer 2023
       description:
-        - >
-          Developed a multi-decoder transformer architecture for autonomous-driving videos, jointly estimating
-          optical flow, depth, and camera pose.
-        - >
-          Designed a self-supervised training framework leveraging epipolar geometry and view synthesis to
-          learn flow, depth, and pose jointly for edge-focused, resource-efficient deployment.
+        - title: Joint Learning of Optical Flow, Depth and Camera Pose via Transformers
+          contents:
+            - Developed a multi-decoder Transformer architecture for autonomous-driving videos in the Multimedia R&D team.
+            - Designed a self-supervised training framework leveraging epipolar geometry and view synthesis to learn flow, depth, and pose jointly in a resource-efficient manner for edge deployment.
 
-- title: Selected Publications
-  type: list
-  contents:
-    - >
-      [1] A. Mukherjee, D. Ravikumar, and K. Roy, “From clutter to clarity: Visual recognition through
-      foveated object-centric learning (FocL),” NeurIPS 2025 Workshop on Reliable ML from Unreliable Data, 2025.
-    - >
-      [2] A. Mukherjee, T. Ibrayev, and K. Roy, “On inherent adversarial robustness of active vision systems,”
-      Transactions on Machine Learning Research (TMLR), 2025.
-    - >
-      [3] T. Ibrayev, M. Nagaraj, A. Mukherjee, and K. Roy, “Exploring foveation and saccade for improved
-      weakly-supervised localization,” Gaze Meets ML Workshop at NeurIPS 2023, PMLR, 2024.
-    - >
-      [4] A. Mukherjee, I. Garg, and K. Roy, “Encoding hierarchical information in neural networks helps in
-      subpopulation shift,” IEEE Trans. Artif. Intell., 2023 (earlier version: FGVC9 Workshop, CVPR 2022).
-    - >
-      [5] A. Joshi, A. Mukherjee, S. Sarkar, and C. Hegde, “Semantic adversarial attacks: Parametric
-      transformations that fool deep classifiers,” ICCV, 2019.
-    - >
-      [6] A. Mukherjee, A. Joshi, S. Sarkar, and C. Hegde, “Attribute-controlled traffic data augmentation
-      using conditional generative models,” CVPR Workshop on Vision for All Seasons (VAS), 2019.
-    - >
-      [7] A. Mukherjee, A. Joshi, S. Sarkar, and C. Hegde, “Semantic domain adaptation for deep classifiers
-      via GAN-based data augmentation,” Machine Learning for Autonomous Driving Workshop, NeurIPS, 2019.
-    - >
-      [8] A. Mukherjee, A. Joshi, S. Sarkar, and C. Hegde, “Generative semantic domain adaptation for
-      perception in autonomous driving,” Journal of Big Data Analytics in Transportation, 2022.
+    - title: Graduate Research Assistant
+      institution: Iowa State University | SCS Lab
+      year: Fall 2017 - Spring 2020
+      description:
+        - title: Attribute GAN-Based Semantic Adversarial Attacks
+          contents:
+            - Developed a conditional GAN-based optimization scheme to generate semantic adversarial examples, driving target classifier accuracy down to 1% on CelebA.
+        - title: GAN-Based Domain Adaptation for Autonomous Driving
+          contents:
+            - Built an attribute-controlled GAN to synthesize adverse driving conditions (e.g. rain, night), improving detector mAP by 3-5% on BDD and KITTI.
 
-- title: Research Interests
-  type: list
+- title: Service & Leadership
+  type: time_table
   contents:
-    - Domain adaptation and distribution shift (long-tail, subpopulation, and OOD robustness).
-    - Scene understanding and object-centric representations for complex visual environments.
-    - Multimodal learning and inference with large vision and vision–language models.
-    - Structure-from-motion and 3D perception for driving and robotics.
-    - Adversarial robustness, memorization, and stable representation learning.
-    - Foveated learning, active vision, and cognitively inspired AI.
-    - Perception for autonomous driving, robotics, and embodied agents.
-    - AR/VR, smart-glasses perception, and real-time multimodal systems.
+    - title: Reviewer
+      institution: Computer Vision & AI Conferences
+      year: 2023 - Present
+      description:
+        - "Computer Vision: CVPR (2023, 2024, 2026), ICCV (2023), ECCV (2024)"
+        - "AI: ICLR (2025, 2026), ICML (2025), NeurIPS (2025), AAAI (2026), TinyICLR (2024)"
+        - "Journals: Transactions on Machine Learning Research (TMLR), September 2025-Present"
+    - title: Workshop Organizer/Reviewer
+      institution: NeurIPS
+      year: 2020 - Present
+      description:
+        - Machine Learning for Autonomous Driving Workshop
+    - title: Career Chair
+      institution: ECEGSA at Purdue University
+      year: Summer 2022 - 2023
 
-- title: Relevant Coursework
-  type: list
+- title: Academic Interests
+  type: nested_list
   contents:
-    - Computational Perception
-    - Deep Learning
-    - Generative Adversarial Networks
-    - Machine Learning for Cyber-Physical Systems
-    - Convex Optimization
-    - Random Variables
-    - Linear Algebra
-    - Foundational AI Models
-    - AI Ethics and Society
+    - title: Core Research Areas
+      items:
+        - Domain Adaptation, Scene Understanding, Multimodal Learning
+        - Generative AI, Embodied AI, Adversarial Robustness
+    - title: Applications
+      items:
+        - Autonomous Driving, Robotics Perception, AR/VR
+        - Foveated Learning, Cognitive Inspired AI, Vision Language Models
 
 - title: Skills
   type: nested_list
   contents:
-    - title: Programming & Operating Systems
+    - title: Programming & Tools
       items:
-        - Python, Bash, LaTeX.
-        - Linux (RedHat, Ubuntu), Git, SLURM-based GPU clusters.
-    - title: ML & Deep Learning
+        - "Languages: Python, Bash, LaTeX"
+        - "OS: Linux (RedHat, Ubuntu)"
+        - "Tools: Git, SLURM-based GPU clusters, Conda"
+    - title: Frameworks & Libraries
       items:
-        - PyTorch, TensorFlow, NumPy, scikit-learn, HuggingFace Transformers.
-        - Training large-scale CNN/ViT models and multimodal pipelines.
-    - title: Computer Vision & Multimodal
-      items:
-        - OpenCV, SAM / SAM 2, CLIP- and VLM-style pipelines.
-        - Bounding-box and segmentation-based object-centric processing.
-    - title: Datasets
-      items:
-        - ImageNet, COCO, KITTI, BDD100K, CelebA, Part-ImageNet, RefCOCO, ImageNet-A, ImageNet-V2, LVIS.
-
-- title: Reviewing & Service
-  type: nested_list
-  contents:
-    - title: Conferences
-      items:
-        - >
-          Computer Vision: CVPR (2023, 2024, 2026), ICCV (2023), ECCV (2024).
-        - >
-          AI & ML: ICLR (2025, 2026), ICML (2025), NeurIPS (2025), AAAI (2026), TinyICLR (2024).
-    - title: Journals
-      items:
-        - Transactions on Machine Learning Research (TMLR), Reviewer (2025 – Present).
-    - title: Workshops
-      items:
-        - Machine Learning for Autonomous Driving Workshop at NeurIPS (2020 – Present).
-    - title: Leadership
-      items:
-        - Career Chair, ECE Graduate Student Association (ECEGSA), Purdue University (Summer 2022 – 2023).
-
-- title: Other Interests
-  type: list
-  contents:
-    - Robust and responsible AI, AI policy and ethics.
-    - Animals, cooking, and exploring national parks and hiking trails.
-    - Football and sports analytics, especially European club football.
+        - "Deep Learning: PyTorch, TensorFlow, NumPy, scikit-learn, Hugging Face Transformers"
+        - "Computer Vision: OpenCV, SAM/SAM 2, Vision-language (CLIP/VLM-style) pipelines"
