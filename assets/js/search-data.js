@@ -376,16 +376,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-on-inherent-adversarial-robustness-of-active-vision-systems-accepted-at-tmlr",
+          title: '“On Inherent Adversarial Robustness of Active Vision Systems” accepted at TMLR !',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-passed-my-ph-d-preliminary-examination-at-purdue-ece",
+          title: 'I passed my Ph.D preliminary examination at Purdue ECE !!!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-focl-accepted-in-reliable-ml-from-unreliable-data-workshop-neurips-2025",
+          title: 'FocL accepted in Reliable ML from Unreliable Data Workshop, NeurIPS 2025.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
